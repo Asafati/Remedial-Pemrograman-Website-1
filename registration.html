@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home - My Responsive Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="fotoICON.png" type="image/png">
+        <script>
+            function toggleContent(id) {
+                var content = document.getElementById(id);
+                if (content.style.display === "none") {
+                    content.style.display = "block";
+                } else {
+                    content.style.display = "none";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Contact Me</h1>
+        </div>
+        <div class="container">
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Homopage</a></li>
+                    <li><a href="about.html">Aboutpage</a></li>
+                    <li><a href="MyHoliday.html">My Holiday</a></li>
+                    <li><a href="registration.html">Registration</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <div class="registrationForm">
+                    <h2>Form Registrasi Fieldtrip</h2>
+                    <form action="process.php" method="POST">
+                        <div class="form-group">
+                            <label for="Nama">Full Name</label>
+                            <input type="text" id="nama" name="nama" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="tanggal_lahir">Date Of Birth</label>
+                            <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="number" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="alamat">Address</label>
+                            <input type="number & text id" alamat" name="alamat">
+                        </div>
+                        <div class="form-group">
+                            <label for="kota">City</label>
+                            <input type="text" id="kota" name="kota" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="kode_pos">Postal Code</label>
+                            <input type="number" id="kode_pos" name="kode_pos" required>
+                        </div>
+                        <button type="submit" class="btn-submit">Daftar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="aside">
+                <h2>Find Me On</h2><br>
+                <ul>
+                    <li><a href="https://www.w3schools.com/html/html_styles.asp" target="_blank">W3Schools</a></li>
+                    <li><a href="https://www.facebook.com/photo.php?fbid=901208111824388&set=a.294442319167640&type=3&mibextid=rpYtZJ0wV"target="_blank">Facebook</a></li>
+                    <li><a href="https://www.tiktok.com/@wa.d_i?_t=8pSnJzzSbSa&_r=1" target="_blank">TikTok</a></li>
+                    <li><a href="https://www.instagram.com/asafati__gea?igsh=MThvZndzZGM0amEwaA==" target="_blank">Instagram</a></li>
+                </ul><br>
+                <h3>Influential Websites</h3>
+                <ul>
+                        <li><a href="https://www.w3schools.com/html/html_styles.asp" target="_blank">W3Schools</a></li>
+                        <li><a href="https://www.hackerrank.com/work/settings/basic" target="_blank">HackerRank</a></li>
+                        <li><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/"target="_blank">freecodecamp</a></li>
+                </ul><br>
+                <h3>University Links</h3>
+                <ul>
+                    <li><a href="https://fti.unai.edu" target="_blank">FTI UNAI</a></li>
+                    <li><a href="https://unai.edu" target="_blank">UNAI</a></li>
+                </ul>
+            </div>
+            <div class="footer">
+                <p>&copy; 2024 Asafati Gea. All rights reserved</p>
+            </div>
+        </div>
+    </body>
+</html>
