@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home - My Responsive Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="fotoICON.png" type="image/png">
+        <script>
+            function toggleContent(id) {
+                var content = document.getElementById(id);
+                if (content.style.display === "none") {
+                    content.style.display = "block";
+                } else {
+                    content.style.display = "none";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>My Holiday Experience</h1>
+        </div>
+        <div class="container">
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Homepage</a></li>
+                    <li><a href="about.html">Aboutpage</a></li>
+                    <li><a href="MyHoliday.html">My Holiday</a></li>
+                    <li><a href="registration.html">Registration</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <h2>My Recent Holiday</h2>
+                    <div class="gallery">
+                        <img src="gambar1holiday.jpg" alt="Image 1">
+                        <img src="gambar2holiday.jpg" alt="Image 2">
+                        <img src="gambar3holiday.jpg" alt="Image 3">
+                        <img src="gambar4holiday.jpg" alt="Image 4">
+                        <img src="gambar5holiday.jpg" alt="Image 5">
+                        <img src="gambar6holiday.jpg" alt="Image 6">
+                        <img src="gambar7holiday.jpg" alt="Image 7">
+                    </div>
+            </div>
+            <div class="aside">
+                <h2>Interesting Facts</h2>
+                    <p>
+                        Any additional information, fun facts, or future advertisements could go here.
+                    </p>
+            </div>
+            <div class="footer">
+                <p>&copy; 2024 Asafati Gea. All rights reserved </p>
+            </div>
+        </div>
+    </body>
+</html>
