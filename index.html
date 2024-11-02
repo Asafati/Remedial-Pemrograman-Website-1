@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home - My Responsive Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="fotoICON.png" type="image/png">
+        <script>
+            function toggleContent(id){
+                var content = document.getElementById(id);
+                if(content.style.display === "none"){
+                    content.style.display = "block";
+                } else {
+                    content.style.display = "none";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>WELCOME EVERYONE</h1>
+        </div>
+        <div class="container">
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Homepage</a></li>
+                    <li><a href="about.html">Aboutpage</a></li>
+                    <li><a href="MyHoliday.html">My Holiday</a></li>
+                    <li><a href="registration.html">Registration</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <h1>Hello There!</h1>
+                <img src="foto di index.jpg" alt="An image" class="responsive-img">
+                <p class="intro-text">Hello, my name is Asafati Gea, and I'm 23 years old. I come from Nias Island, North Sumatra, Indonesia. Currently, I am
+                    a student at Universitas Advent Indonesia, where I'm pursuingg a Bachelor's degree in Information Syetems. I have a
+                    strong interest in technology and an passionate about building a career in this field, where I ain to contribute to
+                    innovative solutions in information systems.
+                </p>
+            </div>
+            <div class="aside">
+                <h2>Interesting Facts</h2>
+                <p>
+                    Any additional information, fun facts, or future advertisements could go here.
+                </p>
+            </div>
+            <div class="footer">
+                <p>&copy; 2024 Asafati Gea. All rights reserved</p>
+            </div>
+        </div>
+    </body>
+</html>
